@@ -1,0 +1,68 @@
+.segundo-container__caixa{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 10%);
+    width: 100%;
+    height: 100vh;
+    position: relative; /* Necessário para o posicionamento absoluto funcionar */
+    overflow: hidden; /* Necessário para esconder, caso algo vaze para fora da sessão*/
+}
+
+.segundo-container__titulo{
+    position: absolute;
+    top: 10vh;
+    left: 73vh;
+}
+
+.segundo-container__texto-titulo{
+    color: white;
+    font-family: Nunito;
+    font-size: 66px;
+}
+
+.segundo-container__sopa-1{
+    position: absolute;
+    left: 45vh;
+    width: 25vh;
+    transform: rotate(-25deg);
+    transition: transform 0.2s ease; /* Suavização da transformação */
+}
+
+.segundo-container__sopa-1:hover{
+    transform: scale(1.1) rotate(-25deg); /* Aumenta o tamanho do elemento em 20% */
+}
+
+.segundo-container__sopa-2{
+    position: absolute;
+    left: 149vh;
+    width: 25vh;
+    transform: rotate(25deg);
+    transition: transform 0.2s ease; /* Suavização da transformação */
+}
+
+.segundo-container__sopa-2:hover{
+    transform: scale(1.1) rotate(25deg); /* Aumenta o tamanho do elemento em 20% */
+}
+
+.segundo-container__texto{
+    width: 50%;
+    position: absolute;
+    top: 35vh;
+    left: 15vh;
+}
+
+.segundo-container__texto-texto{
+    color: white;
+    font-family: Nunito;
+    font-size: 29px;
+}
+
+.segundo-container__video{
+    position: absolute;
+    top: 43vh;
+    left: 130vh;
+    transition: transform 0.2s ease; /* Suavização da transformação */
+}
+
+.segundo-container__video:hover{
+    transform: scale(1.1); /* Aumenta o tamanho do elemento em 20% */
+}
